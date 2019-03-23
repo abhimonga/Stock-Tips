@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+
+
+    android:descendantFocusability="beforeDescendants">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+
+        android:descendantFocusability="afterDescendants"
+        android:orientation="vertical">
+        <!--android:paddingLeft="15dp"-->
+        <!--android:paddingTop="15dp"-->
+        <!--android:paddingRight="15dp"-->
+        <!--android:paddingBottom="15dp"-->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Metal"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:background="@drawable/background"/>
+        <TextView
+            android:id="@+id/target1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg2"
+            android:text="Target1"
+            android:textSize="20sp"
+
+            android:textColor="#000035"/>
+        <TextView
+            android:id="@+id/target2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Target2"
+            android:textColor="#000035"
+            android:textSize="20sp"
+            android:background="@drawable/bg2"
+            />
+        <TextView
+
+            android:id="@+id/target3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Target 3"
+            android:textColor="#000035"
+            android:background="@drawable/bg2"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/sl"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SL"
+            android:background="@drawable/bg2"
+            android:textSize="20sp"
+            android:textColor="#000035"/>
+
+
+
+    </LinearLayout>
+</FrameLayout>
