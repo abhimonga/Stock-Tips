@@ -27,7 +27,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Metal"
-            android:textSize="20sp"
+            android:textSize="30sp"
+            android:padding="7dp"
             android:textColor="#fff"
             android:background="@drawable/background"/>
         <TextView
@@ -35,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bg2"
+            android:padding="6dp"
             android:text="Target1"
             android:textSize="20sp"
 
@@ -43,6 +45,7 @@
             android:id="@+id/target2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="6dp"
             android:text="Target2"
             android:textColor="#000035"
             android:textSize="20sp"
@@ -54,12 +57,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Target 3"
+            android:padding="6dp"
             android:textColor="#000035"
             android:background="@drawable/bg2"
             android:textSize="20sp"/>
         <TextView
             android:id="@+id/sl"
-
+            android:padding="6dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SL"

@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="292dp"
         android:hint="Mobile No." />
 
@@ -22,7 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginTop="316dp"
         android:hint="Password"
         android:inputType="textPassword" />
@@ -34,6 +36,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="146dp"
         android:background="@drawable/bg"
+        android:layout_marginBottom="10dp"
         android:text="Login"
         android:id="@+id/login"
         />
@@ -44,6 +47,7 @@
         android:layout_below="@+id/login"
         android:layout_alignParentStart="true"
         android:layout_marginStart="116dp"
+        android:padding="10dp"
         android:background="@drawable/bg"
         android:text="Create new Account"
         android:onClick="Signup"/>
