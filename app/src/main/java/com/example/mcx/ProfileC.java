@@ -6,7 +6,7 @@ public class ProfileC {
     public   ProfileC(){
 
     }
-    private String name,password,mobile;
+    public String name,password,mobile,refer;
     public String getName() {
         return name;
     }
@@ -29,5 +29,13 @@ public class ProfileC {
 
     public void setMobile(String mobile) {
         this.mobile = mobile;
+    }
+
+    public String getRefer() {
+        return refer;
+    }
+
+    public void setRefer(String refer) {
+        this.refer = refer;
     }
 }

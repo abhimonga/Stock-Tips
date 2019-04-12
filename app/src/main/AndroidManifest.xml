@@ -11,7 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".User"></activity>
+        <activity
+            android:name=".Test"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ad2"
+            android:label="@string/title_activity_ad2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Profile" />
         <activity android:name=".FirstPage" />
         <activity android:name=".adapter" />
         <activity android:name=".Verify" />

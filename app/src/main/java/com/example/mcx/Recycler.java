@@ -1,10 +1,20 @@
 package com.example.mcx;
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -20,14 +30,13 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Recycler extends AppCompatActivity {
+public class Recycler extends AppCompatActivity  {
 
     // CONNECTION_TIMEOUT and READ_TIMEOUT are in milliseconds
     public static final int CONNECTION_TIMEOUT = 10000;
     public static final int READ_TIMEOUT = 15000;
     private RecyclerView mRVFishPrice;
     private adapter mAdapter;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +44,9 @@ public class Recycler extends AppCompatActivity {
         //Make call to AsyncTask
         new AsyncFetch().execute();
     }
+
+
+
 
     private class AsyncFetch extends AsyncTask<String, String, String> {
         ProgressDialog pdLoading = new ProgressDialog(Recycler.this);
@@ -134,11 +146,11 @@ public class Recycler extends AppCompatActivity {
                 for (int i = 0; i < jArray.length(); i++) {
                     JSONObject json_data = jArray.getJSONObject(i);
                     data fishData = new data();
-                    fishData.title = json_data.getString("Title");
-                    fishData.target1 = json_data.getString("Target 1");
-                    fishData.target2 = json_data.getString("Target 2");
-                    fishData.tareget3 = json_data.getString("Target 3");
-                    fishData.sl = json_data.getString("SL");
+                    fishData.title = "Title"+json_data.getString("Title");
+                    fishData.target1 = "Target 1"+json_data.getString("Target 1");
+                    fishData.target2 = "Target 2"+json_data.getString("Target 2");
+                    fishData.tareget3 = "Target 3"+json_data.getString("Target 3");
+                    fishData.sl = "SL"+json_data.getString("SL");
 
                     data.add(fishData);
                 }
@@ -157,4 +169,9 @@ public class Recycler extends AppCompatActivity {
         }
 
     }
+
+
+
+
 }
+

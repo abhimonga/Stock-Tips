@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">184288735067-it2k9o9d6s28ga6066u95cjbiuentjfr.apps.googleusercontent.com</string>
     <string name="firebase_database_url" translatable="false">https://mcxfree-5b4ad.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">184288735067</string>
     <string name="google_api_key" translatable="false">AIzaSyCi5dNdGnuzmaEAEGzDRM1nbgrxDOe52j4</string>

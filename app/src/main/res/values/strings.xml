@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">MCX</string>
+    <string name="Title">Title : </string>
+    <string name="Target1">Target 1: </string>
+    <string name="Target2">Target 2: </string>
+    <string name="Target3">Target 3: </string>
+    <string name="SL">SL ; </string>
+    <string name="title_activity_ad2">ad2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">Test</string>
+
 </resources>

@@ -13,8 +13,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
-        android:layout_marginBottom="292dp"
-        android:hint="Mobile No." />
+        android:layout_marginBottom="419dp"
+        android:hint="Mobile No."
+        android:inputType="phone" />
 
     <EditText
         android:id="@+id/password"
@@ -23,28 +24,29 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="316dp"
+        android:layout_marginTop="187dp"
         android:hint="Password"
         android:inputType="textPassword" />
 
     <Button
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/password"
         android:layout_alignParentStart="true"
         android:layout_marginStart="146dp"
         android:background="@drawable/bg"
-        android:text="Login"
-        android:id="@+id/login"
-        />
+        android:onClick="login"
+        android:text="Login" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/login"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="116dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="19dp"
         android:background="@drawable/bg"
-        android:text="Create new Account"
-        android:onClick="Signup"/>
+        android:onClick="Signup"
+        android:text="Create new Account" />
 </RelativeLayout>

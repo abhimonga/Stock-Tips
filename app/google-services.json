@@ -21,10 +21,6 @@
             "package_name": "com.example.mcx",
             "certificate_hash": "faa5a1ff10763b274f72a580a03719f0953001e3"
           }
-        },
-        {
-          "client_id": "184288735067-it2k9o9d6s28ga6066u95cjbiuentjfr.apps.googleusercontent.com",
-          "client_type": 3
         }
       ],
       "api_key": [
@@ -33,20 +29,13 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
               "client_id": "184288735067-it2k9o9d6s28ga6066u95cjbiuentjfr.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

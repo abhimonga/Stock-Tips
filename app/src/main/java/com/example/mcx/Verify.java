@@ -166,6 +166,7 @@ public class Verify extends AppCompatActivity {
 
                             if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
                                 message = "Invalid code entered...";
+                                Toast.makeText(Verify.this,"Can't Verify you",Toast.LENGTH_LONG).show();
                             }
 
                             Snackbar snackbar = Snackbar.make(findViewById(R.id.parent), message, Snackbar.LENGTH_LONG);
